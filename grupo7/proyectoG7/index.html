@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.A.M.S - PROYECTO KUEPA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header__contenido--elementos">
+            <img class="header--imagenLogo" src="./images/logo.png" alt="Logo de FIJAM">
+            <img class="header--imageniniciales" src="./images/J.A.M.S.svg" alt="Letras de logo FIJAM">
+            <nav class="header__nav--enlaces">
+                <a href="./index.html">Inicio</a>
+                <a href="./servicios.html">Servicio</a>
+                <a href="./contacto.html">Contacto</a>
+            </nav>  
+        </div>
+    </header>
+    <main>
+        <section class="main__section1--contenedor">
+            <div class="main__section1--botones" >
+                <input type="submit" value="J.A.M.S" class="main--botones" onclick="mostrarTextofijam()">
+                <input type="submit" value="MISIÓN" class="main--botones" onclick="mostrarTextoMision()">
+                <input type="submit" value="VISIÓN" class="main--botones" onclick="mostrarTextoVision()">
+            </div>
+            <div class="main__section1--textos">
+                <p id="fijam" style="display:none">
+                    Somos una entidad privada, legalmente constituida teniendo como finalidad prestar servicios de fisioterapia especializada. Buscamos con nuestra labor aportar en la recuperación física de nuestros pacientes, ofreciendo servicios profesionales de alta calidad,  garantizando un trato humano, respetando los valores, creencias del paciente y la de sus familiares.
+                </p>
+                <p id="mision" style="display:none">
+                    Brindar nuestros servicios  de fisioterapia con excelencia,  siendo innovadores y comprometidos. Nuestro equipo de trabajo cuenta con una sólida formación científica, enfocada en la disciplina, la ética y el compromiso  social,  en aras de aportar al mejoramiento de la calidad de vida de los pacientes y sus familias.    
+                </p>
+                <p id="vision" style="display:none">
+                    Ser reconocidos como la entidad líder en la prestación de servicios especializados en Fisioterapia en la ciudad de Bogotá para el año 2027, caracterizandonos por la empatía y dedicación con nuestros pacientes, haciendo agradable y productiva su estancia en nuestras instalaciones.
+                </p>
+            </div>
+            <script>
+                function mostrarTextofijam(){
+                    document.getElementById('mision').style.display ='none';
+                    document.getElementById('vision').style.display ='none';
+                    document.getElementById('fijam').style.display ='block';
+                }
+                function mostrarTextoMision() {
+                    document.getElementById('mision').style.display ='block';
+                    document.getElementById('vision').style.display ='none';
+                    document.getElementById('fijam').style.display ='none';
+                }
+                function mostrarTextoVision(){
+                    document.getElementById('mision').style.display ='none';
+                    document.getElementById('vision').style.display ='block';
+                    document.getElementById('fijam').style.display ='none';
+                }    
+            </script>
+            <div class="main__section1--imagenDoctores">
+                <img src="./images/FOTOGRAFIAMEDICOS.png" alt="">
+            </div>        
+        </section>
+        <section class="main__section2--contenedor">
+            <div class="main--titulo">
+                <h3>Compromiso genuino con su salud</h3>
+            </div>
+            <div class="main__contenedor--comentarios">
+            </div>
+            <div class="main__contenedor--importancia">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer--especificaciones">
+           
+            <p>Copyright 2022 J.A.M.S todos los derechos reservados 
+                <span>
+                    <img class="footer__especificaciones--separador" src="./images/_.svg" alt="">
+                </span>
+            </p> 
+
+            <p>Tr. 18 No. 104 - 56 Bogotá 
+                <span>
+                    <img class="icono-ubicacion" src="./images/ubicacion.svg" alt="icono ubicación">
+                </span> 
+                <i>
+                    <img class="footer__especificaciones--separador" src="./images/_.svg" alt="">
+                </i>
+            </p>
+
+            <div class="footer__contenedor--redessociales">
+                <a href=""><img class="icono--whatsapp" src="./images/whatsapp.svg" alt="logo-whatsApp"></a>
+                <a href=""><img class="facebook-instagram" src="./images/carbon_logo-instagram.svg" alt="Logo instagram"></a>
+                <a href=""><img class="facebook-instagram" src="./images/facebook.svg" alt="Logo facebook"></a>
+                
+                
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
