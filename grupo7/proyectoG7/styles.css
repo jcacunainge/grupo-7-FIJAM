@@ -129,6 +129,7 @@ footer{
     text-align: center;
     margin-top: 10px;
     font-family: 'Source Sans Pro', sans-serif;
+    
 }
 .footer__especificaciones--separador{
     margin-left: 15px;
@@ -142,6 +143,7 @@ footer{
 }
 .footer--especificaciones p{
     margin-top: 10px;
+    
 }
 .footer__contenedor--redessociales{
     margin: 10px;
