@@ -204,3 +204,49 @@ footer{
         margin-top: -10px;
     }
 }
+/* INICIO ESTILOS PAGINA DE SERVICIOS*/
+.contenedor__ser{
+
+}
+.contenedor__ser--titulo{
+background-color: #4154B4;
+color: #FFFEFF;
+font-family: 'Cormorant Garamond', serif;
+font-weight: lighter;
+font-size: 150%;
+text-align: center;
+padding: 1%;
+margin: 5% 0;
+overflow: hidden;
+
+}
+.contenedor__ser--img{
+text-align: center;
+padding: 2% 0;
+}
+.contenedor__ser--inf{
+background-image: url(images/serlista.jpg);
+display: inline-flex;
+width: 100%;
+
+}
+.contenedor__ser--inf1{
+padding: 3%;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 150%;
+margin: 2%;
+
+}
+.contenedor__ser--inf2{
+padding: 3%;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 150%;
+margin: 2%;
+}
+.contenedor__ser--inf3{
+padding: 3%;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 150%;
+margin: 2%;
+}
+/* FIN ESTILOS PAGINA DE SERVICIOS*/
