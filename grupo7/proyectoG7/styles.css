@@ -75,8 +75,7 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: space-evenly;
-    align-content: center;
+    justify-content: space-around;
     background-image: url(./images/Rectangle\ 22.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,9 +108,17 @@ nav a:hover{
     display: flex;
     justify-content: center;
     margin-right: 40px;
+    overflow: hidden; /*evita que se desborden ciertos elementos*/
 }
 .main__section1--textos{
     width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.main__section1--textos{
     text-align: justify;
     margin: 0 auto;
     font-size: 18px;
@@ -186,10 +193,10 @@ footer{
     .main__section1--botones{
         display: flex;
         flex-direction: column;
-        margin: 6%;
+        margin: 50px;
     } 
     .main__section1--textos{
-        margin: 10%;
+        margin: 100px;
     }
 
     .footer--especificaciones{
