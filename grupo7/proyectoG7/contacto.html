@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,32 +6,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacto</title>
-
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
     <header>
-
-
-        <a href="">servicios</a>
-        <a href="">contacto/a>
+        <div class="header__contenido--elementos">
+            <img class="header--imagenLogo" src="./images/logo.png" alt="Logo de FIJAM">
+            <img class="header--imageniniciales" src="./images/J.A.M.S.svg" alt="Letras de logo FIJAM">
+            <nav class="header__nav--enlaces">
+                <a href="./index.html">Inicio</a>
+                <a href="./servicios.html">Servicio</a>
+                <a href="./contacto.html">Contacto</a>
+            </nav>
+        </div>
     </header>
+
+
+
 
     <fieldset>
         <h2> ESTAMOS A TU DISPOSICION</h2>
+
         <h2>PIDE TU CITA</h2>
-        <label for="iname"> NOMBRE </label>
-        <input type="text" id="iname" name="name">
+        <ul>
+            <ol><label for="iname">NOMBRE</label></ol>
+            <ol></ol><input type="text" id="iname" name="name"></ol>
 
-        <label for="itele">TELEFONO</label>
-        <input type="number" id="itele" name="telefono">
+            <ol></ol><label for="itele">TELEFONO</label></ol>
+            <input type="number" id="itele" name="telefono">
 
-        <label for="iemail">CORREO ELECTRONICO</label>
-        <input type="email" id="iemail" name="email">
+            <label for="iemail">CORREO ELECTRONICO</label>
+            <input type="email" id="iemail" name="email">
 
-        <label for="asunto">MENSAJE</label><br><br>
-        <Textarea name="mensaje" id="asunto" cols="40" rows=""></textarea>
-        <input type="submit"></input>
+            <label for="asunto">MENSAJE</label><br><br>
+            <Textarea name="mensaje" id="asunto" cols="40" rows=""></textarea>
+
+            <input type="submit"></input>
+        </ul>
     </fieldset>
     <aside>
         <h3>INFORMACION DE CONTACTO</h3>
@@ -45,7 +58,33 @@
         </div>
 
     </aside>
+    <footer>
+        <div class="footer--especificaciones">
 
+            <p>Copyright 2022 J.A.M.S todos los derechos reservados
+                <span>
+                    <img class="footer__especificaciones--separador" src="./images/_.svg" alt="">
+                </span>
+            </p>
+
+            <p>Tr. 18 No. 104 - 56 Bogotá
+                <span>
+                    <img class="icono-ubicacion" src="./images/ubicacion.svg" alt="icono ubicación">
+                </span>
+                <i>
+                    <img class="footer__especificaciones--separador" src="./images/_.svg" alt="">
+                </i>
+            </p>
+
+            <div class="footer__contenedor--redessociales">
+                <a href=""><img class="icono--whatsapp" src="./images/whatsapp.svg" alt="logo-whatsApp"></a>
+                <a href=""><img class="facebook-instagram" src="./images/carbon_logo-instagram.svg"
+                        alt="Logo instagram"></a>
+                <a href=""><img class="facebook-instagram" src="./images/facebook.svg" alt="Logo facebook"></a>
+
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
