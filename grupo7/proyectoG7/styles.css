@@ -179,7 +179,16 @@ footer {
   .main__section1--textos {
     margin: 10%;
   }
-
+  .contenedor__ser--img {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+  }
+  .contenedor__ser--inf{
+    display: flex;
+    flex-direction: column;
+    column-span: all;
+ }
   .footer--especificaciones {
     display: flex;
     flex-direction: row;
@@ -195,9 +204,25 @@ footer {
     margin-top: -10px;
   }
 }
+@media screen and (min-width: 400px){
+  
+  .contenedor__ser--img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+  }
+  .contenedor__ser--inf{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 50%;
+  }
+  
+}
 /* INICIO ESTILOS PAGINA DE SERVICIOS*/
 .contenedor__ser {
-  overflow: hidden;
+   overflow: hidden;
 }
 .contenedor__ser--circulo1 {
   position: absolute;
@@ -222,9 +247,9 @@ footer {
 }
 .contenedor__ser--img {
   width: 100%;
-  text-align: center;
   padding: 4%;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 
 .contenedor__ser--inf {
@@ -232,21 +257,25 @@ footer {
   display: inline-flex;
   width: 90%;
   margin: 0 5% auto;
+  justify-content:space-evenly;
 }
 .contenedor__ser--inf1 {
-  padding: 3%;
+  width: 27%;
+  padding: 2%;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 150%;
-  margin: 2% 3%;
+  margin: 2% 1%;
 }
 .contenedor__ser--inf2 {
-  padding: 3%;
+  width: 27%;
+  padding: 2%;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 150%;
   margin: 2%;
 }
 .contenedor__ser--inf3 {
-  padding: 3%;
+  width: 27%;
+  padding: 2%;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 150%;
   margin: 2%;
