@@ -203,6 +203,14 @@ footer img {
 }
 
 @media screen and (min-width: 767px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    button{
+        margin-top: 1.5rem;
+    }
     .header__contenido--elementos{
         display: flex; 
         justify-content: center;
@@ -213,5 +221,18 @@ footer img {
         flex-wrap: wrap;
         justify-content: space-evenly;
     
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+    .footer--imagen{
+        margin: 0px;
+        max-width: 150px;
+    }
+    .footer__contenido--elementos{
+        text-align: center;
     }
 }
