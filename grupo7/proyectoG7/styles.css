@@ -38,20 +38,19 @@ header {
   margin: 5px;
   border-radius: 7px;
 }
-
 .header--imageniniciales {
   width: 200px;
   height: 120px;
   object-fit: contain;
 }
-
-nav {
+.header__nav--enlaces {
   display: flex;
   flex-direction: column;
   margin-bottom: 15px;
   margin-top: -30px;
+  text-align: center;
 }
-nav a {
+.header__nav--enlaces a {
   color: black;
   font-weight: 100;
   text-decoration: none;
@@ -59,7 +58,7 @@ nav a {
   padding: 5px;
   margin-right: 20px;
 }
-nav a:hover {
+.header__nav--enlaces a:hover {
   text-decoration: underline;
   color: orange;
 }
@@ -99,7 +98,6 @@ nav a:hover {
 .main--botones:hover {
   background-color: #55dcf7;
 }
-
 .main__section1--imagenDoctores {
   max-width: 300px;
   display: flex;
@@ -149,6 +147,80 @@ footer {
 }
 /* FOOTER FINAL */
 
+/* INICIO ESTILOS PAGINA DE SERVICIOS*/
+.contenedor__ser {
+   overflow: hidden;
+}
+.contenedor__ser--titulo {
+  width: 35%;
+  max-width: 150px;
+  background-color: #4154b4;
+  color: #fffeff;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 20px auto 0;
+  border-radius: 5px;
+}
+.contenedor__ser--imgtitulo {
+  position: absolute;
+  margin: -5% -1%;
+}
+.contenedor__ser--img {
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  margin-top: 30px; 
+}
+.imagen--servicios {
+  width: 70%;
+  max-width: 250px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.contenedor__ser--separador{
+  width: 90%;
+  height: 5px;
+  display: block;
+  margin: 10px auto;
+}
+.contenedor__ser--inf {
+  background-image: url(images/serlista.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.contenedor__ser--informacion{
+  font-family: 'Cormorant Garamond';
+  margin: 5px 0 10px 20px;
+  font-size: 1rem;
+  line-height: 25px;
+
+}
+
+/* FIN ESTILOS PAGINA DE SERVICIOS*/
+
+/* INICIO ESTILOS RESPONSIVIDAD*/
+
+@media screen and (min-width: 500px){
+  .contenedor__ser--inf{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    
+  }
+  .contenedor__ser--informacion{
+    margin: 60px;
+    
+  }
+  
+}
 @media screen and (min-width: 620px) {
   .header__contenido--elementos {
     display: flex;
@@ -171,6 +243,7 @@ footer {
     justify-content:space-evenly;
     gap: 10px;
   }
+  
 }
 
 @media screen and (min-width: 900px) {
@@ -206,65 +279,12 @@ footer {
     justify-content: center;
     margin-top: -10px;
   }
-}
-
-/* INICIO ESTILOS PAGINA DE SERVICIOS*/
-.contenedor__ser {
-   overflow: hidden;
-}
-.contenedor__ser--titulo {
-  width: 35%;
-  max-width: 150px;
-  background-color: #4154b4;
-  color: #fffeff;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1rem;
-  text-align: center;
-  padding: 0.5rem;
-  margin: 20px auto 0;
-  border-radius: 5px;
-
-}
-.contenedor__ser--imgtitulo {
-  position: absolute;
-  margin: -5% -1%;
-}
-
-.contenedor__ser--img {
-  width: 100%;
-  display: flex;
-  flex-direction: column; 
-  margin-top: 30px; 
-}
-.imagen--servicios{
-  width: 70%;
-  max-width: 250px;
-  padding: 0.5rem;
-  border-radius: 20px;
-  margin: 0 auto;
-}
-.contenedor__ser--separador{
-  width: 90%;
-  height: 5px;
-  display: block;
-  margin: 10px auto;
-}
-.contenedor__ser--inf {
-  background-image: url(images/serlista.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  border-radius: 8px;
+  .contenedor__ser--img{
+    display: flex;
+    flex-direction: row;
+    
+  }
+ 
   
 }
-.contenedor__ser--informacion{
-  font-family: 'Cormorant Garamond';
-  margin: 5px 0 10px 20px;
-  font-size: 1rem;
-}
-
-
-/* FIN ESTILOS PAGINA DE SERVICIOS*/
+/*FINAL ESTILOS RESPONSIVIDAD*/
