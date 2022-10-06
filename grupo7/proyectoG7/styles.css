@@ -201,26 +201,13 @@ footer {
   margin: 5px 0 10px 20px;
   font-size: 1rem;
   line-height: 25px;
-
 }
 
 /* FIN ESTILOS PAGINA DE SERVICIOS*/
 
 /* INICIO ESTILOS RESPONSIVIDAD*/
 
-@media screen and (min-width: 500px){
-  .contenedor__ser--inf{
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 1;
-    
-  }
-  .contenedor__ser--informacion{
-    margin: 60px;
-    
-  }
-  
-}
+
 @media screen and (min-width: 620px) {
   .header__contenido--elementos {
     display: flex;
@@ -243,6 +230,16 @@ footer {
     justify-content:space-evenly;
     gap: 10px;
   }
+  .contenedor__ser--inf{
+   display: flex;
+   flex-direction: row;
+    
+  }
+  .contenedor__ser--informacion{
+    margin: 30px;
+    
+  }
+ 
   
 }
 
@@ -283,6 +280,15 @@ footer {
     display: flex;
     flex-direction: row;
     
+  }
+  .contenedor__ser--inf{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  } 
+  .contenedor__ser--informacion{
+    margin: 30 auto;
   }
  
   
