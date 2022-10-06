@@ -12,13 +12,8 @@ main {
 
 /*Fuentes ya esta importada solo es que usen lo siguiente en el 
 elemento que debe llevar la fuente 
-
 font-family: 'Source Sans Pro', sans-serif; para parrafos;
 font-family: 'Cormorant Garamond', serif; para titulos
-
-
-
-
 /* HEADER INICIO */
 header {
   width: 100%;
@@ -197,7 +192,7 @@ footer {
   border-radius: 8px;
 }
 .contenedor__ser--informacion{
-  font-family: 'Cormorant Garamond';
+  font-family: 'Source Sans Pro', sans-serif;
   margin: 5px 0 10px 20px;
   font-size: 1rem;
   line-height: 25px;
