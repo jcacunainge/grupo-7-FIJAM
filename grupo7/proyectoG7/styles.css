@@ -27,8 +27,8 @@ header {
 }
 .header--imagenLogo {
   width: 240px;
-  max-width: 240px;
-  min-width: 240px;
+  max-width: 240px; /*El elemento crecera hasta un maximo de 240px*/
+  min-width: 240px; /*El elemento no disminuira hasta un minimo de 240px*/
   height: 200px;
   margin: 5px;
   border-radius: 7px;
@@ -36,7 +36,7 @@ header {
 .header--imageniniciales {
   width: 200px;
   height: 120px;
-  object-fit: contain;
+  object-fit: contain; /*mejora la resulución de la imagen*/
 }
 .header__nav--enlaces {
   display: flex;
@@ -98,7 +98,7 @@ header {
   display: flex;
   justify-content: center;
   margin-right: 40px;
-  overflow: hidden;
+  overflow: hidden; /*hace que el elemento no tenga border que puedan generar scrool*/
 }
 .main__section1--textos {
   width: 80%;
@@ -232,10 +232,8 @@ footer {
   }
   .contenedor__ser--informacion{
     margin: 30px;
-    
   }
- 
-  
+
 }
 
 @media screen and (min-width: 900px) {
