@@ -12,11 +12,8 @@ main {
 
 /*Fuentes ya esta importada solo es que usen lo siguiente en el 
 elemento que debe llevar la fuente 
-
 font-family: 'Source Sans Pro', sans-serif; para parrafos;
 font-family: 'Cormorant Garamond', serif; para titulos
-
-
 /* HEADER INICIO */
 header {
   width: 100%;
