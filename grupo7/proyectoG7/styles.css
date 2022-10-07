@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0%;
+  padding: 0%;
   box-sizing: border-box;
 }
 body {
@@ -123,6 +123,56 @@ header {
   cursor: pointer;
   border-radius:100px !important;
   }
+
+
+/* CARRUSEL INICIO */
+#ContenCarrusel{
+
+    height: 512px;
+    position: fixed;
+    align-items: center;
+    overflow: hidden;  /* esto es para que los demas elementos se coloquen debajo del elemento padre*/
+}
+
+
+.Carrusel{
+
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+
+    height: 100%;
+}
+
+.flechasCarrusel{
+    background-color: rgb(110, 110, 163 0.5);
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color: rgb(0, 118, 125);
+
+}
+
+img{
+    width: 270px;
+    height: 512px;
+}
+
+/* CARRUSEL FINAL */
 
 
 /* FOOTER INICIO */
