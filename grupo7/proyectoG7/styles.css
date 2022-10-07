@@ -1,12 +1,7 @@
-<<<<<<< HEAD
- * {
-  margin: 0;
-  padding: 0;
-=======
 * {
   margin: 0%;
   padding: 0%;
->>>>>>> 1fe8e64b67fc1735eba198a596a4ecb5f39411fe
+
   box-sizing: border-box;
 }
 body {
