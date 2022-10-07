@@ -142,20 +142,22 @@ header {
   }
 
 .main--titulo{
-  font-style: italic;
+  font-family: 'Cormorant Garamond', serif;
+  font-style:italic;
   font-size: 1.2em;
   text-decoration: underline;
+  text-align: right;
 }
 
 /* CARRUSEL INICIO */
 
-.main__section2--contenedor{
+.grid{
   display: grid;
   grid-template-columns: 50% 50%;
   background-image: linear-gradient(
       0deg,
       rgba(227, 227, 227, 0.5),
-      rgba(255, 255, 255, 0.693)
+      rgba(255, 255, 255, 0.438)
   ) 
   ,url(./images/undraw_doctors_hwty.png);
   
@@ -217,26 +219,31 @@ i{
     height: 512px;
 }
 #Importancia{
-  width: 35%;
   background-color: rgba(210, 243, 249, 0.622);
   text-align: center;
   overflow: hidden;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 80px 80px;
 }
 
 #Importancia .Container2{ 
-  width: 85%;
-  margin: 0 auto;
+ padding: 2em 2em;
 }
 
 #Importancia h2{
-  font-size: 1.2em;
+  margin-top: 0%;
+  font-size: 3.2em;
   color: rgb(0, 28, 177);
 }
 
 #Importancia p{
-  font-size: 1em;
+  margin: 0.2em 0.5em;
+  text-align: center;
+  padding: 2em;
+  font-size: 1.8em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+
 }
 
 #Importancia .imagenimportancia img{
