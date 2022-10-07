@@ -124,10 +124,42 @@ header {
   border-radius:100px !important;
   }
 
+.main--titulo{
+  font-style: italic;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
 
 /* CARRUSEL INICIO */
+
+.grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-image: linear-gradient(
+      0deg,
+      rgba(227, 227, 227, 0.5),
+      rgba(255, 255, 255, 0.693)
+  ) 
+  ,url(./images/undraw_doctors_hwty.png);
+  
+}
+
+#carrusel .container1{
+  text-align: center;
+  padding: 150px 12px;
+}
+
+.Titulocarrusel{
+  background-color: rgba(210, 243, 249, 0.622);
+  font-size: 2.2em;
+  color: rgb(0, 28, 177);
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: 10px 50px 50px;
+}
+
 #ContenCarrusel{
-  height: 512px;
+  height: 720px;
   align-items: center;
   overflow: hidden;  /* esto es para que los demas elementos se coloquen debajo del elemento padre*/
 }
@@ -167,6 +199,37 @@ i{
     width: 270px;
     height: 512px;
 }
+#Importancia{
+  background-color: rgba(210, 243, 249, 0.622);
+  text-align: center;
+  margin: 80px 80px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+#Importancia .Container2{ 
+  padding: 2em 2em;
+}
+
+#Importancia h2{
+  margin-top: 0%;
+  font-size: 3.2em;
+  color: rgb(0, 28, 177);
+}
+
+#Importancia p{
+  margin: 0%;
+  text-align: center;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+#Importancia .imagenimportancia img{
+  padding: 2em 1em;
+  margin: 10px 100px 50px 100px;
+  align-content: center;
+}
+
 
 /* CARRUSEL FINAL */
 
