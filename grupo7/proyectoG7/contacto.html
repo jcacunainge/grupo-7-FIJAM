@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contacto</title>
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -22,42 +22,49 @@
             </nav>
         </div>
     </header>
-
-
-
-
-    <fieldset>
-        <h2> ESTAMOS A TU DISPOSICION</h2>
-
-        <h2>PIDE TU CITA</h2>
-        <ul>
-            <ol><label for="iname">NOMBRE</label></ol>
-            <ol></ol><input type="text" id="iname" name="name"></ol>
-
-            <ol></ol><label for="itele">TELEFONO</label></ol>
-            <input type="number" id="itele" name="telefono">
-
-            <label for="iemail">CORREO ELECTRONICO</label>
-            <input type="email" id="iemail" name="email">
-
-            <label for="asunto">MENSAJE</label><br><br>
-            <Textarea name="mensaje" id="asunto" cols="40" rows=""></textarea>
-
-            <input type="submit"></input>
-        </ul>
-    </fieldset>
-    <aside>
-        <h3>INFORMACION DE CONTACTO</h3>
-        <p>De lunes a viernes abrimos desde las 8 de la mañana hasta 9 de la noche
+    <aside class="aside">
+        <div class="aside__container">
+        <h3 class="aside__title">INFORMACION DE CONTACTO</h3>
+        <p class="aside__paragraph">De lunes a viernes abrimos desde las 8 de la mañana hasta 9 de la noche
             y los sabados de 9:30 a 2:30 de la tarde.
         </p>
-        <p>se admite
+        <p class="aside__paragraph" >se admite
             pago con tarjeta </p>
-        <div>
-            <p>CORREO:JAMSBOGOTA@GMAIL.COM</p>
+        
+            <p class="aside__paragraph">CORREO:JAMSBOGOTA@GMAIL.COM </p>
+    
         </div>
-
     </aside>
+
+    <form class="form">
+        <h2 class="form__title">ESTAMOS A TU DISPOSICION</h2>
+        <P class="form__paragraph">PIDE TU CITA</P>
+        <div class="form__container">
+            <div class="form__group">
+                <input type="text" id="name" class="form__input" placeholder=" ">
+                <label for="name" class="form__label">NOMBRE</label>
+                <span class="form__span"></span>
+            </div>
+            <div class="form__group">
+                <input type="number" id="tele" class="form__input" placeholder=" ">
+                <label for="tele" class="form__label">TELEFONO</label>
+                <span class="form__span"></span>
+            </div>
+            <div class="form__group">
+                <input type="email" id="email" class="form__input" placeholder=" ">
+                <label for="email" class="form__label">CORREO</label>
+                <span class="form__span"></span>
+            </div>
+            <div>
+
+                <label for="asunto" class="form__label">MENSAJE</label>
+                <Textarea name="mensaje" id="asunto" cols="40" rows=""></textarea>
+                <span class="form__span"></span>
+
+                <input type="submit" class="form__submit" value="enviar">
+            </div>
+        </div>
+    </form>
     <footer>
         <div class="footer--especificaciones">
 
