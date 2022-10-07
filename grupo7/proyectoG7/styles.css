@@ -3,9 +3,11 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
 body {
   width: 100%;
 }
+
 main {
   margin-top: 5px;
 }
@@ -20,24 +22,31 @@ header {
   background-color: #cfeff9;
   font-family: "Source Sans Pro", sans-serif;
 }
+
 .header__contenido--elementos {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .header--imagenLogo {
   width: 240px;
-  max-width: 240px; /*El elemento crecera hasta un maximo de 240px*/
-  min-width: 240px; /*El elemento no disminuira hasta un minimo de 240px*/
+  max-width: 240px;
+  /*El elemento crecera hasta un maximo de 240px*/
+  min-width: 240px;
+  /*El elemento no disminuira hasta un minimo de 240px*/
   height: 200px;
   margin: 5px;
   border-radius: 7px;
 }
+
 .header--imageniniciales {
   width: 200px;
   height: 120px;
-  object-fit: contain; /*mejora la resulución de la imagen*/
+  object-fit: contain;
+  /*mejora la resulución de la imagen*/
 }
+
 .header__nav--enlaces {
   display: flex;
   flex-direction: column;
@@ -45,6 +54,7 @@ header {
   margin-top: -30px;
   text-align: center;
 }
+
 .header__nav--enlaces a {
   color: black;
   font-weight: 100;
@@ -53,6 +63,7 @@ header {
   padding: 5px;
   margin-right: 20px;
 }
+
 .header__nav--enlaces a:hover {
   text-decoration: underline;
   color: orange;
@@ -71,11 +82,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .main__section1--botones {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
 }
+
 .main--botones {
   margin: 25px 15px;
   width: 70px;
@@ -90,16 +103,20 @@ header {
   transition: all 1s;
   font-family: "Cormorant Garamond", serif;
 }
+
 .main--botones:hover {
   background-color: #55dcf7;
 }
+
 .main__section1--imagenDoctores {
   max-width: 300px;
   display: flex;
   justify-content: center;
   margin-right: 40px;
-  overflow: hidden; /*hace que el elemento no tenga border que puedan generar scrool*/
+  overflow: hidden;
+  /*hace que el elemento no tenga border que puedan generar scrool*/
 }
+
 .main__section1--textos {
   width: 80%;
   text-align: justify;
@@ -241,34 +258,43 @@ footer {
   margin-top: 10px;
   font-family: "Source Sans Pro", sans-serif;
 }
+
 .footer__especificaciones--separador {
   margin-left: 15px;
 }
+
 .icono-ubicacion {
   margin-left: 10px;
 }
+
 .icono--whatsapp {
   margin-right: 8px;
   margin-top: 3px;
 }
+
 .footer--especificaciones p {
   margin-top: 10px;
 }
+
 .footer__contenedor--redessociales {
   margin: 10px;
 }
+
 .footer__contenedor--redessociales img {
   margin: 15px;
 }
+
 .footer__contenedor--redessociales img:hover {
   transform: scale(1.2);
 }
+
 /* FOOTER FINAL */
 
 /* INICIO ESTILOS PAGINA DE SERVICIOS*/
 .contenedor__ser {
-   overflow: hidden;
+  overflow: hidden;
 }
+
 .contenedor__ser--titulo {
   width: 35%;
   max-width: 150px;
@@ -281,16 +307,19 @@ footer {
   margin: 20px auto 0;
   border-radius: 5px;
 }
+
 .contenedor__ser--imgtitulo {
   position: absolute;
   margin: -5% -1%;
 }
+
 .contenedor__ser--img {
   width: 100%;
   display: flex;
-  flex-direction: column; 
-  margin-top: 30px; 
+  flex-direction: column;
+  margin-top: 30px;
 }
+
 .imagen--servicios {
   width: 70%;
   max-width: 250px;
@@ -298,12 +327,14 @@ footer {
   border-radius: 20px;
   margin: 0 auto;
 }
-.contenedor__ser--separador{
+
+.contenedor__ser--separador {
   width: 90%;
   height: 5px;
   display: block;
   margin: 10px auto;
 }
+
 .contenedor__ser--inf {
   background-image: url(images/serlista.jpg);
   background-repeat: no-repeat;
@@ -331,29 +362,34 @@ footer {
     display: flex;
     flex-direction: row;
   }
+
   .header--imageniniciales {
     display: flex;
     margin-left: 30px;
     justify-content: flex-start;
   }
+
   .header__nav--enlaces {
     display: flex;
     flex-direction: row;
     margin-left: auto;
   }
+
   .contenedor__ser--img {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     gap: 10px;
   }
-  .contenedor__ser--inf{
-   display: flex;
-   flex-direction: row;
-    
+
+  .contenedor__ser--inf {
+    display: flex;
+    flex-direction: row;
+
   }
-  .contenedor__ser--informacion{
+
+  .contenedor__ser--informacion {
     margin: 30px;
   }
 
@@ -365,48 +401,82 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
+
   .main__section1--botones {
     display: flex;
     flex-direction: column;
     margin: 6%;
   }
+
   .main__section1--textos {
     margin: 10%;
   }
+
   .contenedor__ser--img {
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
   }
+
   .footer--especificaciones {
     display: flex;
     flex-direction: row;
     margin-left: 40px;
     margin-top: 55px;
   }
+
   .footer__especificaciones--separador {
     margin: 0 20px 0 20px;
   }
+
   .footer__contenedor--redessociales {
     display: flex;
     justify-content: center;
     margin-top: -10px;
   }
-  .contenedor__ser--img{
+
+  .contenedor__ser--img {
     display: flex;
     flex-direction: row;
-    
+
   }
-  .contenedor__ser--inf{
+
+  .contenedor__ser--inf {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-  } 
-  .contenedor__ser--informacion{
+
+  }
+
+  .contenedor__ser--informacion {
     margin: 30 auto;
   }
- 
-  
+
+
 }
+
 /*FINAL ESTILOS RESPONSIVIDAD*/
+
+/*INICIO DE ESTILOS PAGINA CONTACTO*/
+body {
+  background-color: #EBEBEB;
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  background-color: #55DCF7;
+  width: 60%;
+  float: left;
+ margin:auto ;
+ padding: 4px;
+
+}
+
+.aside__container {
+  background-color: #f0f2f7;
+  margin: auto;
+  width: 40%;
+  float: right;
+  background-image: url(images/imagen-aside.png);
+}
