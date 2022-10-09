@@ -340,29 +340,31 @@ footer {
 
 /*INICIO DE ESTILOS PAGINA CONTACTO*/
 
-.contedore__aside__form {
+.container__aside__form {
   display: flex;
   flex-direction: row;
   margin: auto;
   width: 90%;
+  text-align: center;
+height:10;
 
 }
 
 
 .form {
   background-color: #55DCF7;
-  width: 60%;
+  width: 50%;
   float: left;
-  text-align: center;
+  
 
 
 }
 
 .aside {
   background-color: #f0f2f7;
-  width: 40%;
+  width:40%;
   float: right;
-  background-image: url(images/imagen-aside.png);
+  
 
 }
 /* FIN DE ESTILOS PAGINA DE CONTACTO*/
