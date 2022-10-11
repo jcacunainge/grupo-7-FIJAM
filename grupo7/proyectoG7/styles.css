@@ -128,6 +128,141 @@ header {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+
+#fijam--fijam,
+#fijam--mision,
+#fijam--vision {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #001CB1;
+  margin-bottom: 10px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.btn-whatsapp {
+  display: block !important;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 100px !important;
+}
+
+.main--titulo {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.2em;
+  text-decoration: underline;
+  text-align: right;
+}
+
+/* CARRUSEL INICIO */
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-image: linear-gradient(0deg,
+      rgba(227, 227, 227, 0.5),
+      rgba(255, 255, 255, 0.438)), url(./images/undraw_doctors_hwty.png);
+
+}
+
+#carrusel .container1 {
+  text-align: center;
+  padding: 150px 12px;
+}
+
+.Titulocarrusel {
+  background-color: rgba(210, 243, 249, 0.622);
+  font-size: 2.2em;
+  color: rgb(0, 28, 177);
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: 10px 50px 50px;
+}
+
+#ContenCarrusel {
+  height: 720px;
+  align-items: center;
+  overflow: hidden;
+  /* esto es para que los demas elementos se coloquen debajo del elemento padre*/
+}
+
+
+.Carrusel {
+  height: 100%;
+  position: relative;
+}
+
+.tarjetaCarrusel {
+  height: 100%;
+}
+
+.flechasCarrusel {
+  background-color: rgb(110, 110, 163 0.5);
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: rgb(0, 118, 125);
+
+}
+
+.imagenes__carrucel {
+  width: 270px;
+  height: 512px;
+}
+
+#Importancia {
+  background-color: rgba(210, 243, 249, 0.622);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 80px 80px;
+}
+
+#Importancia .Container2 {
+  padding: 2em 2em;
+}
+
+#Importancia h2 {
+  margin-top: 0%;
+  font-size: 3.2em;
+  color: rgb(0, 28, 177);
+}
+
+#Importancia p {
+  margin: 0.2em 0.5em;
+  text-align: center;
+  padding: 2em;
+  font-size: 1.8em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+
+}
+
+#Importancia .imagenimportancia img {
+  width: 80%;
+  margin-top: 20px;
+  align-content: center;
+}
+
+
+
+
+
 /* FOOTER INICIO */
 footer {
   background-color: #001cb1;
@@ -226,8 +361,14 @@ footer {
   border-radius: 8px;
 }
 
+
 .contenedor__ser--informacion {
   font-family: 'Cormorant Garamond';
+}
+
+.contenedor__ser--informacion {
+  font-family: 'Source Sans Pro', sans-serif;
+
   margin: 5px 0 10px 20px;
   font-size: 1rem;
   line-height: 25px;
@@ -342,31 +483,47 @@ footer {
 
 .container__aside__form {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   margin: auto;
   width: 90%;
   text-align: center;
-height:10;
 
 }
 
 
-.form {
+.container__form {
   background-color: #55DCF7;
   width: 50%;
   float: left;
-  
+
 
 
 }
 
-.aside {
-  background-color: #f0f2f7;
-  width:40%;
+.container__aside {
+  background-color: #e1e6f3;
+  width: 40%;
   float: right;
-  
+  background-image: url(images/imagen-aside.png);
+  background-repeat: no-repeat;
+}
+
+.container__aside__titulo {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.container__aside__parrafo {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container__form__titulo {font-family:'Cormorant Garamond', serif ;
+}
+
+.container__form__parrafo {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container__form__ul {font-family:'Source Sans Pro', sans-serif ;
+ 
 
 }
+
 /* FIN DE ESTILOS PAGINA DE CONTACTO*/
-
-
