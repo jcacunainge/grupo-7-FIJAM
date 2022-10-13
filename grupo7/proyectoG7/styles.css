@@ -481,11 +481,11 @@ footer {
 
 /*INICIO DE ESTILOS PAGINA CONTACTO*/
 
-.container__aside__form {
+/*.container__aside__form {
   display: flex;
   flex-direction: row-reverse;
   margin: 4px;
-
+  
   width: 95%;
   text-align: center;
 
@@ -528,6 +528,6 @@ footer {
   font-family: 'Source Sans Pro', sans-serif;
 
 
-}
+}*/
 
 /* FIN DE ESTILOS PAGINA DE CONTACTO*/
