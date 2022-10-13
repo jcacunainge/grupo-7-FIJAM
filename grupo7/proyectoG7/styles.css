@@ -484,8 +484,9 @@ footer {
 .container__aside__form {
   display: flex;
   flex-direction: row-reverse;
-  margin: auto;
-  width: 90%;
+  margin: 4px;
+
+  width: 95%;
   text-align: center;
 
 }
@@ -493,7 +494,7 @@ footer {
 
 .container__form {
   background-color: #55DCF7;
-  width: 50%;
+  width: 40%;
   float: left;
 
 
@@ -501,11 +502,10 @@ footer {
 }
 
 .container__aside {
-  background-color: #e1e6f3;
-  width: 40%;
-  float: right;
   background-image: url(images/imagen-aside.png);
-  background-repeat: no-repeat;
+  background-size: cover;
+  height: 845px;
+
 }
 
 .container__aside__titulo {
@@ -515,14 +515,18 @@ footer {
 .container__aside__parrafo {
   font-family: 'Source Sans Pro', sans-serif;
 }
-.container__form__titulo {font-family:'Cormorant Garamond', serif ;
+
+.container__form__titulo {
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .container__form__parrafo {
   font-family: 'Source Sans Pro', sans-serif;
 }
-.container__form__ul {font-family:'Source Sans Pro', sans-serif ;
- 
+
+.container__form__ul {
+  font-family: 'Source Sans Pro', sans-serif;
+
 
 }
 
