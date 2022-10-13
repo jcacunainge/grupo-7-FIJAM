@@ -481,32 +481,28 @@ footer {
 
 /*INICIO DE ESTILOS PAGINA CONTACTO*/
 
-.container__aside__form {
+.contacto__contenedor {
   display: flex;
-  flex-direction: row-reverse;
-  margin: auto;
-  width: 90%;
-  text-align: center;
+  flex-direction: row ;
+  justify-content: center;
+  margin: 100px 0;
 
 }
-
+.contenedor__información {
+  width: 50%;
+  height: 500px;
+  background-color: #55dcf7;
+}
 
 .container__form {
-  background-color: #55DCF7;
-  width: 50%;
-  float: left;
-
+  width: 30%;
+  background-color: #001cb1;
+  height: 500px;
 
 
 }
 
-.container__aside {
-  background-color: #e1e6f3;
-  width: 40%;
-  float: right;
-  background-image: url(images/imagen-aside.png);
-  background-repeat: no-repeat;
-}
+
 
 .container__aside__titulo {
   font-family: 'Cormorant Garamond', serif;
