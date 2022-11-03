@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -20,17 +21,12 @@ font-family: 'Cormorant Garamond', serif; para titulos
 
 
 /* HEADER INICIO */
-header {
+.contenedor__header--estilo{
   width: 100%;
   background-color: #cfeff9;
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.header__contenido--elementos {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .header--imagenLogo {
   width: 240px;
