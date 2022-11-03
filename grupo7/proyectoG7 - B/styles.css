@@ -1,0 +1,477 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+main {
+  margin-top: 5px;
+}
+
+/*Fuentes ya esta importada solo es que usen lo siguiente en el 
+elemento que debe llevar la fuente 
+
+font-family: 'Source Sans Pro', sans-serif; para parrafos;
+font-family: 'Cormorant Garamond', serif; para titulos
+
+
+/* HEADER INICIO */
+.contenedor__header--estilo{
+  width: 100%;
+  background-color: #cfeff9;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
+.header--imagenLogo {
+  width: 240px;
+  max-width: 240px;
+  /*El elemento crecera hasta un maximo de 240px*/
+  min-width: 240px;
+  /*El elemento no disminuira hasta un minimo de 240px*/
+  height: 200px;
+  margin: 5px;
+  border-radius: 7px;
+}
+
+.header--imageniniciales {
+  width: 200px;
+  height: 120px;
+  object-fit: contain;
+  /*mejora la resulución de la imagen*/
+}
+
+.header__nav--enlaces {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  margin-top: -30px;
+  text-align: center;
+}
+
+.header__nav--enlaces a {
+  color: black;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.header__nav--enlaces a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+/* HEADER FINAL */
+
+/* MAIN INICIO */
+.main__section1--contenedor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: center;
+  background-image: url(./images/Rectangle\ 22.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__section1--botones {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.main--botones {
+  margin: 25px 15px;
+  width: 70px;
+  height: 35px;
+  display: flex;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #081e41;
+  color: white;
+  font-weight: bold;
+  transition: all 1s;
+  font-family: "Cormorant Garamond", serif;
+}
+
+.main--botones:hover {
+  background-color: #55dcf7;
+}
+
+.main__section1--imagenDoctores {
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+  overflow: hidden;
+  /*hace que el elemento no tenga border que puedan generar scrool*/
+}
+
+.main__section1--textos {
+  width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+
+#fijam--fijam,
+#fijam--mision,
+#fijam--vision {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #001CB1;
+  margin-bottom: 10px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.btn-whatsapp {
+  display: block !important;
+  position: fixed;
+  z-index: 9999999;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  border-radius: 100px !important;
+}
+
+.main--titulo {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.2em;
+  text-decoration: underline;
+  text-align: right;
+}
+
+/* CARRUSEL INICIO */
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-image: linear-gradient(0deg,
+      rgba(227, 227, 227, 0.5),
+      rgba(255, 255, 255, 0.438)), url(./images/undraw_doctors_hwty.png);
+
+}
+
+#carrusel .container1 {
+  text-align: center;
+  padding: 150px 12px;
+}
+
+.Titulocarrusel {
+  background-color: rgba(210, 243, 249, 0.622);
+  font-size: 2.2em;
+  color: rgb(0, 28, 177);
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: 10px 50px 50px;
+}
+
+#ContenCarrusel {
+  height: 720px;
+  align-items: center;
+  overflow: hidden;
+  /* esto es para que los demas elementos se coloquen debajo del elemento padre*/
+}
+
+
+.Carrusel {
+  height: 100%;
+  position: relative;
+}
+
+.tarjetaCarrusel {
+  height: 100%;
+}
+
+.flechasCarrusel {
+  background-color: rgb(110, 110, 163 0.5);
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+i {
+  color: rgb(0, 118, 125);
+
+}
+
+.imagenes__carrucel {
+  width: 270px;
+  height: 512px;
+}
+
+#Importancia {
+  background-color: rgba(210, 243, 249, 0.622);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 80px 80px;
+}
+
+#Importancia .Container2 {
+  padding: 2em 2em;
+}
+
+#Importancia h2 {
+  margin-top: 0%;
+  font-size: 3.2em;
+  color: rgb(0, 28, 177);
+}
+
+#Importancia p {
+  margin: 0.2em 0.5em;
+  text-align: center;
+  padding: 2em;
+  font-size: 1.8em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+
+}
+
+#Importancia .imagenimportancia img {
+  width: 80%;
+  margin-top: 20px;
+  align-content: center;
+}
+
+
+
+
+
+/* FOOTER INICIO */
+footer {
+  background-color: #001cb1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.footer__especificaciones--separador {
+  margin-left: 15px;
+}
+
+.icono-ubicacion {
+  margin-left: 10px;
+}
+
+.icono--whatsapp {
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.footer--especificaciones p {
+  margin-top: 10px;
+}
+
+.footer__contenedor--redessociales {
+  margin: 10px;
+}
+
+.footer__contenedor--redessociales img {
+  margin: 15px;
+}
+
+.footer__contenedor--redessociales img:hover {
+  transform: scale(1.2);
+}
+
+/* FOOTER FINAL */
+
+/* INICIO ESTILOS PAGINA DE SERVICIOS*/
+.contenedor__ser {
+  overflow: hidden;
+}
+
+.contenedor__ser--titulo {
+  width: 35%;
+  max-width: 150px;
+  background-color: #4154b4;
+  color: #fffeff;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 20px auto 0;
+  border-radius: 5px;
+}
+
+.contenedor__ser--imgtitulo {
+  position: absolute;
+  margin: -5% -1%;
+}
+
+.contenedor__ser--img {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.imagen--servicios {
+  width: 70%;
+  max-width: 250px;
+  padding: 0.5rem;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.contenedor__ser--separador {
+  width: 90%;
+  height: 5px;
+  display: block;
+  margin: 10px auto;
+}
+
+.contenedor__ser--inf {
+  background-image: url(images/serlista.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+
+.contenedor__ser--informacion {
+  font-family: 'Cormorant Garamond';
+}
+
+.contenedor__ser--informacion {
+  font-family: 'Source Sans Pro', sans-serif;
+
+  margin: 5px 0 10px 20px;
+  font-size: 1rem;
+  line-height: 25px;
+}
+
+/* FIN ESTILOS PAGINA DE SERVICIOS*/
+
+/* INICIO ESTILOS RESPONSIVIDAD*/
+
+
+@media screen and (min-width: 620px) {
+  .header__contenido--elementos {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header--imageniniciales {
+    display: flex;
+    margin-left: 30px;
+    justify-content: flex-start;
+  }
+
+  .header__nav--enlaces {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+  }
+
+  .contenedor__ser--img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+
+  .contenedor__ser--inf {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .contenedor__ser--informacion {
+    margin: 30px;
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+  .main__section1--contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .main__section1--botones {
+    display: flex;
+    flex-direction: column;
+    margin: 6%;
+  }
+
+  .main__section1--textos {
+    margin: 10%;
+  }
+
+  .contenedor__ser--img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .footer--especificaciones {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 55px;
+  }
+
+  .footer__especificaciones--separador {
+    margin: 0 20px 0 20px;
+  }
+
+  .footer__contenedor--redessociales {
+    display: flex;
+    justify-content: center;
+    margin-top: -10px;
+  }
+
+  .contenedor__ser--img {
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .contenedor__ser--inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .contenedor__ser--informacion {
+    margin: 30 auto;
+  }
+
+
+}
+
+/*FINAL ESTILOS RESPONSIVIDAD*/
+
