@@ -51,11 +51,11 @@ section.pt-5.pb-5{
 
 .TITULOCARRUSELL{
   background-color: rgba(210, 243, 249, 0.622);
-  font-size: 2.2em;
+  font-size: 1.8em;
   color: rgb(0, 28, 177);
   padding: 0.5em;
   border-radius: 5px;
-  margin: 10px 5px 5px;
+  margin: 0 5px 15px;
   text-align: center;
 }
 #Importancia {
@@ -74,7 +74,7 @@ section.pt-5.pb-5{
 
 #Importancia h2 {
   margin-top: 0%;
-  font-size: 3.2em;
+  font-size: 1.8em;
   color: rgb(0, 28, 177);
 }
 
@@ -100,77 +100,3 @@ section.pt-5.pb-5{
   font-family: "Source Sans Pro", sans-serif;
   
 }
-
-/* INICIO ESTILOS PAGINA DE SERVICIOS*/
-.contenedor__ser {
-  overflow: hidden;
-}
-
-.contenedor__ser--titulo {
-  width: 35%;
-  max-width: 150px;
-  background-color: #4154b4;
-  color: #fffeff;
-  font-family: "Cormorant Garamond", serif;
-  font-size: 1rem;
-  text-align: center;
-  padding: 0.5rem;
-  margin: 20px auto 0;
-  border-radius: 5px;
-}
-
-.contenedor__ser--imgtitulo {
-  position: absolute;
-  margin: -5% -1%;
-}
-
-.contenedor__ser--img {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
-}
-
-.imagen--servicios {
-  width: 70%;
-  max-width: 250px;
-  padding: 0.5rem;
-  border-radius: 20px;
-  margin: 0 auto;
-}
-
-.contenedor__ser--separador {
-  width: 90%;
-  height: 5px;
-  display: block;
-  margin: 10px auto;
-}
-
-.contenedor__ser--inf {
-  background-image: url(images/serlista.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 95%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  border-radius: 8px;
-}
-
-
-.contenedor__ser--informacion {
-  font-family: 'Cormorant Garamond';
-}
-
-.contenedor__ser--informacion {
-  font-family: 'Source Sans Pro', sans-serif;
-
-  margin: 5px 0 10px 20px;
-  font-size: 1rem;
-  line-height: 25px;
-}
-
-/* FIN ESTILOS PAGINA DE SERVICIOS*/
-
-
-
