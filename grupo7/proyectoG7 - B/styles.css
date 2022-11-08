@@ -31,8 +31,69 @@ font-family: 'Cormorant Garamond', serif; para titulos
   font-family: "Source Sans Pro", sans-serif;
   
 }
+/*alejandro*/
+section.pt-5.pb-5{
+  background-image: linear-gradient(0deg,
+  rgba(227, 227, 227, 0.5),
+  rgba(255, 255, 255, 0.438)), url(./images/undraw_doctors_hwty.png)
+}
+#carouselExampleControls{
+  width: 75%;
+  align-items: center;
+}
+.main--titulo {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.2em;
+  text-decoration: underline;
+  text-align: right;
+}
 
+.TITULOCARRUSELL{
+  background-color: rgba(210, 243, 249, 0.622);
+  font-size: 2.2em;
+  color: rgb(0, 28, 177);
+  padding: 0.5em;
+  border-radius: 5px;
+  margin: 10px 5px 5px;
+  text-align: center;
+}
+#Importancia {
+  width: 70%;
+  height: 50em;
+  background-color: rgba(210, 243, 249, 0.622);
+  text-align: center;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 80px 80px;
+}
 
+#Importancia .Container2 {
+  padding: 2em 2em;
+}
+
+#Importancia h2 {
+  margin-top: 0%;
+  font-size: 3.2em;
+  color: rgb(0, 28, 177);
+}
+
+#Importancia p {
+  margin: 0.2em 0.3em;
+  text-align: center;
+  padding: 1em;
+  font-size: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+
+}
+
+#Importancia .imagenimportancia img {
+  width: 80%;
+  margin-top: 20px;
+  align-content: center;
+}
+/*alejandro */
 /* FOOTER INICIO */
 .estilos-footer {
   background-color: #001cb1;
