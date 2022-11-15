@@ -40,6 +40,7 @@ section.pt-5.pb-5{
 #carouselExampleControls{
   width: 75%;
   align-items: center;
+  margin: auto;
 }
 .main--titulo {
   font-family: 'Cormorant Garamond', serif;
@@ -59,13 +60,13 @@ section.pt-5.pb-5{
   text-align: center;
 }
 #Importancia {
-  width: 70%;
+
   height: 50em;
   background-color: rgba(210, 243, 249, 0.622);
   text-align: center;
   overflow: hidden;
   border-radius: 5px;
-  margin: 80px 80px;
+  margin-top: 4rem;
 }
 
 #Importancia .Container2 {
